@@ -8,12 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var scrollAmount = 40.0
+    @State var scrollAmount = 60.0
     @State var backgroundToggle = false
-    
-    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
-    
-    @State private var counter = 0
     
     var body: some View {
         ZStack {
@@ -28,7 +24,7 @@ struct ContentView: View {
                         .digitalCrownRotation($scrollAmount, from: 40, through: 208, by: 2, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
                     )
             } else {
-                Color.white
+                Color.gray
                     .ignoresSafeArea()
                     .overlay(Text(" \(Int(scrollAmount)) BPM")
                         .font(.largeTitle)
@@ -39,7 +35,7 @@ struct ContentView: View {
                     )
             }
         }.onAppear(perform: {
-            Timer.scheduledTimer(withTimeInterval:scrollAmount/60, repeats: true) {
+            Timer.scheduledTimer(withTimeInterval:60/scrollAmount, repeats: true) {
                 time in
                 backgroundToggle.toggle()
             }
