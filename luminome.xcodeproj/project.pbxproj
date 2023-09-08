@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D48C5C652AAB7B540083D941 /* luminome Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D48C5C642AAB7B540083D941 /* luminome Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D48C5C6A2AAB7B540083D941 /* luminomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C5C692AAB7B540083D941 /* luminomeApp.swift */; };
+		D48C5C6C2AAB7B540083D941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C5C6B2AAB7B540083D941 /* ContentView.swift */; };
+		D48C5C6E2AAB7B560083D941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48C5C6D2AAB7B560083D941 /* Assets.xcassets */; };
+		D48C5C712AAB7B560083D941 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48C5C702AAB7B560083D941 /* Preview Assets.xcassets */; };
+		D48C5C7B2AAB7B560083D941 /* luminome_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C5C7A2AAB7B560083D941 /* luminome_Watch_AppTests.swift */; };
+		D48C5C852AAB7B560083D941 /* luminome_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C5C842AAB7B560083D941 /* luminome_Watch_AppUITests.swift */; };
+		D48C5C872AAB7B560083D941 /* luminome_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48C5C862AAB7B560083D941 /* luminome_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48C5C662AAB7B540083D941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48C5C582AAB7B540083D941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48C5C632AAB7B540083D941;
+			remoteInfo = "luminome Watch App";
+		};
+		D48C5C772AAB7B560083D941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48C5C582AAB7B540083D941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48C5C632AAB7B540083D941;
+			remoteInfo = "luminome Watch App";
+		};
+		D48C5C812AAB7B560083D941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48C5C582AAB7B540083D941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48C5C632AAB7B540083D941;
+			remoteInfo = "luminome Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D48C5C8D2AAB7B560083D941 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D48C5C652AAB7B540083D941 /* luminome Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D48C5C5E2AAB7B540083D941 /* luminome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luminome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C5C642AAB7B540083D941 /* luminome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "luminome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C5C692AAB7B540083D941 /* luminomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luminomeApp.swift; sourceTree = "<group>"; };
+		D48C5C6B2AAB7B540083D941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D48C5C6D2AAB7B560083D941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48C5C702AAB7B560083D941 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D48C5C762AAB7B560083D941 /* luminome Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luminome Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C5C7A2AAB7B560083D941 /* luminome_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luminome_Watch_AppTests.swift; sourceTree = "<group>"; };
+		D48C5C802AAB7B560083D941 /* luminome Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luminome Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C5C842AAB7B560083D941 /* luminome_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luminome_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		D48C5C862AAB7B560083D941 /* luminome_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luminome_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48C5C612AAB7B540083D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C732AAB7B560083D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C7D2AAB7B560083D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D48C5C572AAB7B540083D941 = {
+			isa = PBXGroup;
+			children = (
+				D48C5C682AAB7B540083D941 /* luminome Watch App */,
+				D48C5C792AAB7B560083D941 /* luminome Watch AppTests */,
+				D48C5C832AAB7B560083D941 /* luminome Watch AppUITests */,
+				D48C5C5F2AAB7B540083D941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48C5C5F2AAB7B540083D941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48C5C5E2AAB7B540083D941 /* luminome.app */,
+				D48C5C642AAB7B540083D941 /* luminome Watch App.app */,
+				D48C5C762AAB7B560083D941 /* luminome Watch AppTests.xctest */,
+				D48C5C802AAB7B560083D941 /* luminome Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48C5C682AAB7B540083D941 /* luminome Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D48C5C692AAB7B540083D941 /* luminomeApp.swift */,
+				D48C5C6B2AAB7B540083D941 /* ContentView.swift */,
+				D48C5C6D2AAB7B560083D941 /* Assets.xcassets */,
+				D48C5C6F2AAB7B560083D941 /* Preview Content */,
+			);
+			path = "luminome Watch App";
+			sourceTree = "<group>";
+		};
+		D48C5C6F2AAB7B560083D941 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D48C5C702AAB7B560083D941 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D48C5C792AAB7B560083D941 /* luminome Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48C5C7A2AAB7B560083D941 /* luminome_Watch_AppTests.swift */,
+			);
+			path = "luminome Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D48C5C832AAB7B560083D941 /* luminome Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48C5C842AAB7B560083D941 /* luminome_Watch_AppUITests.swift */,
+				D48C5C862AAB7B560083D941 /* luminome_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "luminome Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48C5C5D2AAB7B540083D941 /* luminome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48C5C8E2AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome" */;
+			buildPhases = (
+				D48C5C5C2AAB7B540083D941 /* Resources */,
+				D48C5C8D2AAB7B560083D941 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48C5C672AAB7B540083D941 /* PBXTargetDependency */,
+			);
+			name = luminome;
+			productName = luminome;
+			productReference = D48C5C5E2AAB7B540083D941 /* luminome.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D48C5C632AAB7B540083D941 /* luminome Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48C5C8A2AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch App" */;
+			buildPhases = (
+				D48C5C602AAB7B540083D941 /* Sources */,
+				D48C5C612AAB7B540083D941 /* Frameworks */,
+				D48C5C622AAB7B540083D941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "luminome Watch App";
+			productName = "luminome Watch App";
+			productReference = D48C5C642AAB7B540083D941 /* luminome Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48C5C752AAB7B560083D941 /* luminome Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48C5C912AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch AppTests" */;
+			buildPhases = (
+				D48C5C722AAB7B560083D941 /* Sources */,
+				D48C5C732AAB7B560083D941 /* Frameworks */,
+				D48C5C742AAB7B560083D941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48C5C782AAB7B560083D941 /* PBXTargetDependency */,
+			);
+			name = "luminome Watch AppTests";
+			productName = "luminome Watch AppTests";
+			productReference = D48C5C762AAB7B560083D941 /* luminome Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48C5C7F2AAB7B560083D941 /* luminome Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48C5C942AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch AppUITests" */;
+			buildPhases = (
+				D48C5C7C2AAB7B560083D941 /* Sources */,
+				D48C5C7D2AAB7B560083D941 /* Frameworks */,
+				D48C5C7E2AAB7B560083D941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48C5C822AAB7B560083D941 /* PBXTargetDependency */,
+			);
+			name = "luminome Watch AppUITests";
+			productName = "luminome Watch AppUITests";
+			productReference = D48C5C802AAB7B560083D941 /* luminome Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48C5C582AAB7B540083D941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D48C5C5D2AAB7B540083D941 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D48C5C632AAB7B540083D941 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D48C5C752AAB7B560083D941 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D48C5C632AAB7B540083D941;
+					};
+					D48C5C7F2AAB7B560083D941 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D48C5C632AAB7B540083D941;
+					};
+				};
+			};
+			buildConfigurationList = D48C5C5B2AAB7B540083D941 /* Build configuration list for PBXProject "luminome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48C5C572AAB7B540083D941;
+			productRefGroup = D48C5C5F2AAB7B540083D941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48C5C5D2AAB7B540083D941 /* luminome */,
+				D48C5C632AAB7B540083D941 /* luminome Watch App */,
+				D48C5C752AAB7B560083D941 /* luminome Watch AppTests */,
+				D48C5C7F2AAB7B560083D941 /* luminome Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48C5C5C2AAB7B540083D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C622AAB7B540083D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C5C712AAB7B560083D941 /* Preview Assets.xcassets in Resources */,
+				D48C5C6E2AAB7B560083D941 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C742AAB7B560083D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C7E2AAB7B560083D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48C5C602AAB7B540083D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C5C6C2AAB7B540083D941 /* ContentView.swift in Sources */,
+				D48C5C6A2AAB7B540083D941 /* luminomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C722AAB7B560083D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C5C7B2AAB7B560083D941 /* luminome_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48C5C7C2AAB7B560083D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C5C872AAB7B560083D941 /* luminome_Watch_AppUITestsLaunchTests.swift in Sources */,
+				D48C5C852AAB7B560083D941 /* luminome_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48C5C672AAB7B540083D941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48C5C632AAB7B540083D941 /* luminome Watch App */;
+			targetProxy = D48C5C662AAB7B540083D941 /* PBXContainerItemProxy */;
+		};
+		D48C5C782AAB7B560083D941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48C5C632AAB7B540083D941 /* luminome Watch App */;
+			targetProxy = D48C5C772AAB7B560083D941 /* PBXContainerItemProxy */;
+		};
+		D48C5C822AAB7B560083D941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48C5C632AAB7B540083D941 /* luminome Watch App */;
+			targetProxy = D48C5C812AAB7B560083D941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D48C5C882AAB7B560083D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48C5C892AAB7B560083D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D48C5C8B2AAB7B560083D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"luminome Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = luminome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.luminome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		D48C5C8C2AAB7B560083D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"luminome Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = luminome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.luminome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		D48C5C8F2AAB7B560083D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = luminome;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.luminome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D48C5C902AAB7B560083D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = luminome;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.luminome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48C5C922AAB7B560083D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.luminome-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luminome Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luminome Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		D48C5C932AAB7B560083D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.luminome-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luminome Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luminome Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		D48C5C952AAB7B560083D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.luminome-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "luminome Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		D48C5C962AAB7B560083D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.luminome-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "luminome Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48C5C5B2AAB7B540083D941 /* Build configuration list for PBXProject "luminome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48C5C882AAB7B560083D941 /* Debug */,
+				D48C5C892AAB7B560083D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48C5C8A2AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48C5C8B2AAB7B560083D941 /* Debug */,
+				D48C5C8C2AAB7B560083D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48C5C8E2AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48C5C8F2AAB7B560083D941 /* Debug */,
+				D48C5C902AAB7B560083D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48C5C912AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48C5C922AAB7B560083D941 /* Debug */,
+				D48C5C932AAB7B560083D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48C5C942AAB7B560083D941 /* Build configuration list for PBXNativeTarget "luminome Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48C5C952AAB7B560083D941 /* Debug */,
+				D48C5C962AAB7B560083D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48C5C582AAB7B540083D941 /* Project object */;
+}
